@@ -5,20 +5,20 @@ import dices from "./dices.svg";
 
 export default function Button() {
   const [color, setColor] = useState({
-    color1: 193,
-    color2: 125,
-    color3: 184
+    red: 193,
+    green: 125,
+    blue: 184
   });
 
   const randomGenerator = () => {
-    return Math.floor(Math.random() * 255);
+    return Math.floor(Math.random() * 256);
   };
 
   const handleClick = () => {
     setColor({
-      color1: randomGenerator(),
-      color2: randomGenerator(),
-      color3: randomGenerator()
+      red: randomGenerator(),
+      green: randomGenerator(),
+      blue: randomGenerator()
     });
   };
 
@@ -26,13 +26,13 @@ export default function Button() {
     <div>
       <button
         style={{
-          backgroundColor: `rgb(${color.color1},${color.color2},${color.color3})`
+          backgroundColor: `rgb(${color.red},${color.green},${color.blue})`
         }}
         onClick={handleClick}
       ></button>
       <p>
         <img src={dices} alt="random" />
-        rgb({color.color1},{color.color2},{color.color3})
+        rgb({color.red},{color.green},{color.blue})
       </p>
     </div>
   );
