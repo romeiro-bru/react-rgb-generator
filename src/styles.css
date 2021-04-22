@@ -6,14 +6,3 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
-
-p {
-  color: #f1c95c;
-  font-weight: bold;
-}
-
-button {
-  padding: 6rem;
-  border-radius: 50%;
-  border: none;
-}
