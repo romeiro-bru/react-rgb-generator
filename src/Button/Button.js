@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./style.css";
+import dices from "./dices.svg";
 
 export default function Button() {
   const [color, setColor] = useState({
@@ -30,6 +31,7 @@ export default function Button() {
         onClick={handleClick}
       ></button>
       <p>
+        <img src={dices} alt="random" />
         rgb({color.color1},{color.color2},{color.color3})
       </p>
     </div>
