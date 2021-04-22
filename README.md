@@ -5,8 +5,7 @@
 </p>
 
 ## Features :unicorn: 
-* Click on the button 
-* Check the new color and rgb
+* Click on the button to generate a new color with corresponding rgb 
 
 ## Technologies :mag_right:
 * React :sparkles:
