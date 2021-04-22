@@ -1,4 +1,4 @@
-## Day Three / 30 days of React challenge / Random rgb generator
+## Day Three / 30 days of React challenge / Random RGB Generator
 
 <p  align="center">
 <img  src="https://media.giphy.com/media/VeBCXuumCmw7Icx3L6/giphy.gif"  height="180" alt="dices">
