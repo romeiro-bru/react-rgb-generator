@@ -12,4 +12,4 @@
 * Css :nail_care:
 
 #
-Inspired by: @graceaveris
+Inspired by: “Random Colour Picker” of [@graceaveris](https://github.com/graceaveris)
