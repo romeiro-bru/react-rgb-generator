@@ -29,7 +29,9 @@ export default function Button() {
           backgroundColor: `rgb(${color.red},${color.green},${color.blue})`
         }}
         onClick={handleClick}
-      ></button>
+      >
+        Click me!
+      </button>
       <p>
         <img src={dices} alt="random" />
         rgb({color.red},{color.green},{color.blue})

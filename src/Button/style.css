@@ -9,7 +9,9 @@ p img {
 }
 
 button {
-  padding: 5rem;
+  padding: 5rem 4rem;
   border-radius: 50%;
   border: none;
+  font-weight: bold;
+  color: #0f0a18;
 }
